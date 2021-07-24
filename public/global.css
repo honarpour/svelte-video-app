@@ -1,0 +1,35 @@
+:root {
+  --color-white: #ffffff;
+  --color-gray-light: #cccccc;
+  --color-gray-dark: #444444;
+  --color-black: #000000;
+  --color-green: #52a542;
+  --gutter: 30px;
+  --radius: 10px;
+  --font-size: 16px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--font-size);
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+*:not(input) {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+img {
+  max-width: 100%;
+}
